@@ -1,6 +1,6 @@
 namespace ConsoleApp1;
 
-public class Graphics_Piotr
+public class Graphics_Piotr : Igraphics
 {
     
 }

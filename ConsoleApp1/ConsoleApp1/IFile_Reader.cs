@@ -1,6 +1,7 @@
 namespace ConsoleApp1;
 
-public class IFile_Reader
+public abstract class IFile_Reader
 {
+    public abstract List<KeyValuePair<string,List<string>>> ReadFile(string path);
     
 }

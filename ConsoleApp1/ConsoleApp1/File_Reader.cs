@@ -14,7 +14,6 @@ public class File_Reader : IFile_Reader
                     string d = l[0];
                     List<string> att = new List<string>(l.Skip(1));
                     data.Add(Tuple.Create(d,att));
-                    Console.WriteLine(line);
                 }
             }
         }
